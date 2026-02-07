@@ -117,11 +117,21 @@
 
 .gif-container {
   margin: 2rem 0;
+  max-width: 500px;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .response-gif {
   max-width: 100%;
+  max-height: 400px;
+  width: auto;
   height: auto;
+  object-fit: contain;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
@@ -135,6 +145,12 @@
 
 .try-again-button {
   background: linear-gradient(135deg, #ff6b9d 0%, #ff1744 100%);
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.reset-button {
+  background: linear-gradient(135deg, #bdbdbd 0%, #757575 100%);
   color: white;
   margin-top: 1.5rem;
 }
